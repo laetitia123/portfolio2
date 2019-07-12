@@ -85,8 +85,10 @@ img{
 }
 /* the start of contact me styling */
     form{
-        float:left;
+    float:left;
      margin-left:10px;
+     margin-left: 500px;
+     height:500px;
      
       }
      
@@ -121,22 +123,32 @@ img{
        background-color: rgb(224, 216, 216);
        opacity:0.9;
        padding: 20px;
-       height:800px;
-       width:600px;
-       margin-left:700px;
+       height:1200px;
+       /* width:600px; */
+       /* margin-left:700px; */
        margin-top:100px;
      }
      /* end of contact me styling */
     
       
-     .logo{
-      border-top:1px solid black; 
-     margin-top:-100px;
-     margin-right:50px;
-     margin-left:1200px;
+     /* the start of project styling */
+     #project {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left:200px;
        
-     }
-    
+      }
+      
+      #project > div {
+       
+        width: 400px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size:30px;
+      }
+     
+    /* the end of project styling */
   .footer {
     position: fixed;
     left: 0;
