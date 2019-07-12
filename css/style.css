@@ -1,72 +1,149 @@
-
 body{
-margin:0;
-padding:0;
-width:100%
+    margin:0;
+    padding:0;
+    width:100%;
 }
-.wrap{
+header{
+    background-color:#38475c;
+}
+h2{
+    margin-left:200px;
+    padding-top:50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
  
-     height:900px;
-     margin-left:0px;
- position: relative;
- background-color: rgb(224, 216, 216);
- }
- nav li{
-     display:inline;
-     margin-left:0px;
-     margin-right:20px;
- }
- header{
-     background-color:#38475c;
- }
- .main{
-     margin-top: 0px;
- height: 600px;
- margin-left: 0px;
- background-color:rgb(212, 208, 208);
- }
- nav{
-     background-color: #38475c;
- 
- }
- blockquote{
-     font-family:sans-serif;
-     font-style:italic;
-     font-size: 25px;
- }
- img{
-     height:250px;
-     width:250px;
-     float:left;
-     margin-left:320px;
-     border-radius:50%;
- }
- 
- 
- a{
-     text-decoration: none;
-     color:whitesmoke;
- }
- a:hover{
-     background-color: #517aa8;
-     color:black;
- }
- h2{
-     margin-left: 370px;
- }
- p{
-     font-size: 18px;
-     font-weight: normal;
-     line-height: 23px;
-     margin-left: 80px;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color:whitesmoke;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    text-transform:uppercase;
+    
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  nav li{
+    display:inline;
+    margin-left:0px;
+    margin-right:20px;
+}
+button{
+    /* margin-left:320px;
+    color :whitesmoke; */
+    background-color: #082243;
+    width: 200px;
+    height: 70px;
+    border:none;
+    border-radius: 25px;
+    margin-top:0px;
+    font-size:20px;
+    margin-bottom: 100px;
+    text-transform:uppercase;
+
+}
+.main{
+    text-transform:uppercase;
+    font-size:16px;
+    font-weight:300px;
+    letter-spacing: 1.2px;
+    line-height: 18px;
+    text-align:center;
+    /* padding-left:320px; */
+    padding-top: 180px;
+    color:rgb(5, 4, 10);
+    height:500px;
+    background:url( ../images/laetitia.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;    
+}
+#about{
+    text-align: center;
+    height:300px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 23px;
+}
+img{
+    height:250px;
+    width:250px;
+    float:left;
+    margin-left:320px;
+    border-radius:50%;
+}
+/* the start of contact me styling */
+    form{
+        float:left;
+     margin-left:10px;
      
- }
+      }
+     
+     * {box-sizing: border-box;}
+     
+     input[type=text], select, textarea {
+       width: 100%;
+       padding: 12px 50px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       box-sizing: border-box;
+       margin-top: 6px;
+       margin-bottom: 16px;
+       resize: vertical;
+     }
+     
+     input[type=submit] {
+       background-color: #4CAF50;
+       color: white;
+       padding: 12px 20px;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+     }
+     
+     input[type=submit]:hover {
+       background-color: #45a049;
+     }
+     
+     #contact {
+       border-radius: 5px;
+       background-color: rgb(224, 216, 216);
+       opacity:0.9;
+       padding: 20px;
+       height:800px;
+       width:600px;
+       margin-left:700px;
+       margin-top:100px;
+     }
+     /* end of contact me styling */
+    
+      
+     .logo{
+      border-top:1px solid black; 
+     margin-top:-100px;
+     margin-right:50px;
+     margin-left:1200px;
+       
+     }
+    
   .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-  background-color:#38475c;
-   color: white;
-   text-align: center;
-}
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#38475c;
+    color:whitesmoke;
+    text-align: center;
+ }
+
