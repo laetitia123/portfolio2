@@ -3,8 +3,14 @@ body{
     padding:0;
     width:100%;
 }
-header{
-    background-color:#38475c;
+/* header{
+    /* background-color:#38475c; */
+/* } */ 
+.background{
+    background:url( ../images/image9.jpeg); 
+    background-size:cover;
+    background-repeat: no-repeat; 
+    height:900px;
 }
 h2{
     margin-left:200px;
@@ -64,11 +70,13 @@ button{
     /* padding-left:320px; */
     padding-top: 180px;
     color:rgb(5, 4, 10);
-    height:500px;
-    background:url( ../images/laetitia.jpeg);
+    height:900px;
+    /* background:url( ../images/image1.jpg); */
     background-size:cover;
     background-repeat: no-repeat;    
 }
+
+
 /* begining of about styling */
 
 #about{
@@ -131,7 +139,7 @@ blockquote>p{
      }
      
      input[type=submit] {
-       background-color: #4CAF50;
+       background-color:black;
        color: white;
        padding: 12px 20px;
        border: none;
@@ -161,6 +169,7 @@ blockquote>p{
         margin-left:200px;
         box-sizing:border-box;
         justify-content:space-between;
+       
         
       }
       ol {
@@ -170,13 +179,19 @@ blockquote>p{
         }
       
       #project > div {
-       height:300px;
-        width: 400px;
+       height:350px;
+        width: 500px;
         margin:10px;
-        text-align: center;
+        padding-left:10px;
         line-height:25px;
         font-size:18px;
         box-shadow:0px 5px 5px 5px grey;
+        text-transform:normal;
+      }
+      #project p{
+        padding-left:25px;
+         
+         
       }
     
     /* the end of project styling */
