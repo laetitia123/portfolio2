@@ -74,7 +74,7 @@ button{
     height:300px;
     font-size: 18px;
     font-weight: normal;
-    line-height: 23px;
+    line-height:25px;
 }
 img{
     height:250px;
@@ -140,12 +140,12 @@ img{
       }
       
       #project > div {
-       
+       height:400px;
         width: 400px;
-        margin: 10px;
+        margin:10px;
         text-align: center;
-        line-height: 75px;
-        font-size:30px;
+        line-height:25px;
+        font-size:18px;
       }
      
     /* the end of project styling */
