@@ -22,7 +22,7 @@ ul {
     float: right;
   }
   
-  li a {
+   nav li a {
     display: block;
     color:whitesmoke;
     text-align: center;
@@ -163,6 +163,11 @@ blockquote>p{
         justify-content:space-between;
         
       }
+      ol {
+          list-style-type: upper-roman;
+          display: block;
+        float:left;
+        }
       
       #project > div {
        height:300px;
