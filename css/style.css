@@ -189,8 +189,10 @@ header{
        background-color: rgb(224, 216, 216);
        opacity:0.9;
        padding: 20px;
-       height:1200px;
+       height:770px;
        margin-top:100px;
+      font-family:Georgia, 'Times New Roman', Times, serif
+     
      }
      /* end of contact me styling */
     
@@ -229,7 +231,7 @@ header{
     
     /* the end of project styling */
   .footer {
-    position: fixed;
+  height:100px;
     left: 0;
     bottom: 0;
     width: 100%;
