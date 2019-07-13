@@ -1,13 +1,13 @@
 
-# { My Portfolio}
+#  My Portfolio
 
-#### By **{laetitia}**
+#### By **laetitia**
 ## Description
 This is my Portfolio ,whre you can find all about me , the applications done before and you can contact me if you want .
 ## Setup/Installation Requirements
 
 * linux Installation
-* visio stio (or an code editor)
+* visio studio (or an code editor)
 * google clome
 * 
 
