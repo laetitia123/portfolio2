@@ -7,10 +7,11 @@ body{
     /* background-color:#38475c; */
 /* } */ 
 .background{
-    background:url( ../images/image9.jpeg); 
+    background:url( ../images/image93.jpg); 
     background-size:cover;
     background-repeat: no-repeat; 
     height:900px;
+    color:white;
 }
 h2{
     margin-left:200px;
@@ -27,7 +28,10 @@ ul {
   li {
     float: right;
   }
-  
+  nav{
+    padding-top:-50px;
+    
+  }
    nav li a {
     display: block;
     color:whitesmoke;
