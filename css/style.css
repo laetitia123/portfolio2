@@ -1,3 +1,8 @@
+body{
+    margin:2px;
+    padding:2px;
+    
+}
 header{
     padding-top:20px;
     margin-right: 150px;
@@ -80,7 +85,7 @@ header{
     opacity:0.9;
     height:850px;
   }
-
+/* end of home styling */
 
 /* begining of about styling */
 
@@ -112,9 +117,6 @@ header{
       height:200px;
       width:200px;
       border-radius:50% ;
-      /* margin-top:-50px; */
-      
-      
   }
   #about p{
     font-size:20px;
@@ -236,7 +238,7 @@ header{
          
       }
     
-    /* the end of project styling */
+    /* the end of  div project styling */
   .footer {
       padding-top:20px;
       text-transform: capitalize;
