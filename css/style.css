@@ -1,121 +1,150 @@
-body{
-    margin:0;
-    padding:0;
-    width:100%;
-}
-/* header{
-    /* background-color:#38475c; */
-/* } */ 
-.background{
-    background:url( ../images/image93.jpg); 
-    background-size:cover;
-    background-repeat: no-repeat; 
-    height:900px;
-    color:white;
-}
-h2{
-    margin-left:200px;
-    padding-top:50px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
- 
+header{
+    padding-top:20px;
+    margin-right: 150px;
+    font-size:12px;
   }
-  
-  li {
-    float: right;
-  }
-  nav{
-    padding-top:-50px;
+   header h2{
+    float:left;
+      margin-left:200px;
+      font-size:25px;
     
   }
-   nav li a {
-    display: block;
-    color:whitesmoke;
-    text-align: center;
-    padding: 14px 15px;
-    text-decoration: none;
-    text-transform:uppercase;
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+   
+    }
     
+    li {
+      float: right;
+    }
+    
+     nav li a {
+      display: block;
+      color:white;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+      font-size:16px;
+      text-transform: uppercase;
+  
+      
+    }
+    
+    li a:hover {
+      background-color: #082243;
+      color:black;
+  
+    }
+   
+   
+  .background{
+    width:100%; 
+      height:850px;
+      background:url( ../images/image93.jpg); 
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      color :white;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      
   }
   
-  li a:hover {
-    background-color: #111;
+  button{
+    
+      background-color:black;
+      width: 150px;
+      height: 50px;
+      border:none;
+      border-radius:25px;
+      margin-top:0px;
+      color:white;
+      margin-bottom: 100px;
+      text-transform:uppercase;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+  
   }
-  nav li{
-    display:inline;
-    margin-left:0px;
-    margin-right:20px;
-}
-button{
-    /* margin-left:320px;
-    color :whitesmoke; */
-    background-color: #082243;
-    width: 200px;
-    height: 70px;
-    border:none;
-    border-radius: 25px;
-    margin-top:0px;
-    font-size:20px;
-    margin-bottom: 100px;
-    text-transform:uppercase;
-
-}
-.main{
-    text-transform:uppercase;
-    font-size:16px;
-    font-weight:300px;
-    letter-spacing: 1.2px;
-    line-height: 18px;
+  .main{
+    text-transform:normal;
+    font-size:37px;
+    letter-spacing :0.1em;;
+    line-height:1.0em;
     text-align:center;
-    /* padding-left:320px; */
-    padding-top: 180px;
-    color:rgb(5, 4, 10);
-    height:900px;
-    /* background:url( ../images/image1.jpg); */
-    background-size:cover;
-    background-repeat: no-repeat;    
-}
+    padding-top:250px;   
+     color:whitesmoke ;
+  }
+  #overlay{
+    background-color:rgb(12, 10, 10);
+    opacity:0.9;
+    height:850px;
+  }
 
 
 /* begining of about styling */
 
 #about{
     text-align: center;
-    height:900px;
-    font-size: 18px;
-    font-weight: normal;
-    line-height:25px;
-}
-.me{
-    height:300px;
-}
-img{
-    height:250px;
-    width:250px;
-    float:left;
-    margin-left:320px;
-    border-radius:50%;
-}
-.technical{
-    padding-top:20px;
-    background-color:#38475c;
-    height:500px;
-}
- blockquote{
-    padding-top:20px;
-    height:300px;
-    width:1200px;
-    background-color:white;
-    margin-left:300px;
-}
-blockquote>p{
-    border-bottom: 2px solid #C09665;
+      height:1000px;
+      font-size: 18px;
+      font-weight: normal;
+      font-family:Georgia, 'Times New Roman', Times, serif
+     
+  }
+  .me{
+      height:500px;
+      margin-top:10px;
+  
+  }
+  .me h2{
    
-}
+    font-size:22px;
+  }
+    #border{
+    border-bottom:1px  solid #38475c;
+    width: 100px;
+   text-align:center;
+   
+    
+  }
+  img{
+      height:200px;
+      width:200px;
+      border-radius:50% ;
+      /* margin-top:-50px; */
+      
+      
+  }
+  #about p{
+    font-size:20px;
+    font-weight:normal; 
+    line-height:1.5;
+    margin-left:200px;
+    margin-right:150px;
+    
+  
+  }
+  .technical{
+      padding-top:20px;
+      background-color:#38475c;
+      height:500px;
+      text-align: center;
+  }
+   blockquote{
+      padding-top:20px;
+      height:300px;
+      width:1200px;
+      background-color:white;
+      margin-left:100px;
+      margin-right: 100px
+  }
+  blockquote>p{
+      border-bottom: 2px solid #38475c;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      
+     
+  }
 /* ending of about styling */
 
 
