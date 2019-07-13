@@ -130,13 +130,14 @@ header{
       background-color:#38475c;
       height:500px;
       text-align: center;
+      background-attachment: fixed;
   }
    blockquote{
       padding-top:20px;
       height:300px;
       width:1200px;
       background-color:white;
-      margin-left:100px;
+      margin-left:250px;
       margin-right: 100px
   }
   blockquote>p{
@@ -189,6 +190,9 @@ header{
        background-color: rgb(224, 216, 216);
        opacity:0.9;
        padding: 20px;
+       box-shadow:0px 5px 5px 5px grey;
+       font-size:16px;
+
        height:770px;
        margin-top:100px;
       font-family:Georgia, 'Times New Roman', Times, serif
@@ -203,9 +207,12 @@ header{
         flex-wrap: nowrap;
         margin-left:200px;
         box-sizing:border-box;
-        justify-content:space-between;
-       
-        
+        justify-content:space-between; 
+      }
+      #mo{
+          border-radius:5px;
+          width:300px;
+          margin-left:50px;
       }
       ol {
           list-style-type: upper-roman;
@@ -214,8 +221,8 @@ header{
         }
       
       #project > div {
-       height:350px;
-        width: 500px;
+       height:500px;
+        width: 600px;
         margin:10px;
         padding-left:10px;
         line-height:25px;
@@ -231,6 +238,9 @@ header{
     
     /* the end of project styling */
   .footer {
+      padding-top:20px;
+      text-transform: capitalize;
+      word-spacing:0.5em;
   height:100px;
     left: 0;
     bottom: 0;
