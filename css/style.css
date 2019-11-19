@@ -212,7 +212,7 @@ font-family: 'Times New Roman', Times, serif;
     padding-top:20px;
     background-color:#38475c;
     background:attachment;
-    height:500px;
+    height:600px;
     text-align: center;
     background-attachment: fixed;
 }
@@ -227,6 +227,9 @@ blockquote>p{
     font-family:Georgia, 'Times New Roman', Times, serif;
     
    
+}
+#project{
+  margin-top:100px;
 }
 /* ending of about styling */
 
