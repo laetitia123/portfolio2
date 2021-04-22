@@ -1,19 +1,28 @@
+body{
+font-family:Georgia, 'Times New Roman', Times, serif;
+;
+}
 header{
   padding-top:20px;
   margin-right: 150px;
   font-size:12px;
+  color:rgb(12, 12, 12);
 }
  header h2{
   float:left;
     margin-left:200px;
-    font-size:25px;
-  
-}
+    font-size:35px;
+    color:rgb(194, 81, 6) !important;
+ }
+ .navbar-light{
+   background-color: white;
+ }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    color:black;
  
   }
   
@@ -23,19 +32,21 @@ ul {
   
    nav li a {
     display: block;
-    color:white;
-    text-align: center;
+    color:black;
+    /* text-align: center; */
     padding: 10px 10px;
     text-decoration: none;
     font-size:16px;
     text-transform: uppercase;
+    /* float:right; */
+    margin-right: 5erm;
 
     
   }
   
   li a:hover {
-    background-color:teal;
-    color:black;
+    /* background-color:rgb(1, 17, 1);; */
+    color:rgb(194, 81, 6) !important;
     text-decoration: none;
 
   }
@@ -44,7 +55,7 @@ ul {
 .background{
   width:100%; 
     height:850px;
-    background:url( ../images/image93.jpg); 
+    background:url( ../images/background.jpg); 
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -52,7 +63,9 @@ ul {
     font-family:Georgia, 'Times New Roman', Times, serif;
     
 }
-
+.contact{
+  background-color:rgb(194, 81, 6) !important;
+}
 button{
   
     background-color:black;
@@ -75,10 +88,11 @@ button{
   text-align:center;
   padding-top:250px;   
    color:whitesmoke ;
+   /* float: right; */
 }
 #overlay{
   background-color:black;
-  opacity:0.8;
+  opacity:0.9,9;
   height:850px;
 }
 h1,h2 {
@@ -118,7 +132,23 @@ color:white;
 font-family: 'Times New Roman', Times, serif;
 
 }
-
+/* portfolio */
+#myproject h1{
+  text-align:center;
+  margin-top:200px;
+  /* padding-bottom: 50px; */
+  font-family: 'Times New Roman', Times, serif;
+  text-transform:uppercase;
+  font-size:28px;
+}
+.me h1{
+  text-align:center;
+  margin-top:100px;
+  /* padding-bottom: 50px; */
+  font-family: 'Times New Roman', Times, serif;
+  text-transform:uppercase;
+  font-size:28px;
+}
 .button {
   display: flex;
   align-items: center;
@@ -166,7 +196,7 @@ font-family: 'Times New Roman', Times, serif;
 /* begining of about styling */
 
 #about{
-  text-align: center;
+   text-align: center;
     height:1000px;
     font-size: 18px;
     font-weight: normal;
@@ -176,6 +206,7 @@ font-family: 'Times New Roman', Times, serif;
 .me{
     height:500px;
     margin-top:10px;
+    text-align:center;
     /* background-color: antiquewhite; */
     /* width:300px; */
     /* margin-left:40px; */
@@ -211,7 +242,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 .technical{
     padding-top:20px;
-    background-color:teal;
+    background-color:rgb(1, 17, 1);
     background:attachment;
     height:600px;
     text-align: center;
@@ -221,10 +252,12 @@ font-family: 'Times New Roman', Times, serif;
     padding-top:20px;
   
     background-color:white;
+    opacity: 0.9;
  
 }
 blockquote>p{
-    border-bottom: 2px solid #38475c;
+    border-bottom: 2px solid rgb(194, 81, 6) !important;
+    margin-bottom:35px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     
    
@@ -350,7 +383,7 @@ height:100px;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:teal;
+  background-color:black;
   color:whitesmoke;
   text-align: center;
 }
@@ -432,14 +465,36 @@ h1 {
 /* border on each categories */
 
 .box-header {
-  width:280px;
-  
-  padding: 2px 0px;
+  width:80px;
+  margin-left:500px;
+  /* padding-top:20px; */
+  /* padding-bottom:40px; */
+
   /* margin: 20px 0px; */
-  border-bottom: 2px solid transparent;
-  border-image: linear-gradient(to right, #0099CC 0%, #F27280 100%);
+  border-bottom: 7px solid transparent;
+  border-image: linear-gradient(to right, rgb(1, 17, 1) 0%,rgb(194, 81, 6)  100%);
   border-image-slice: 1
 
 }
 
 
+.btn-outline-info{
+  background-color:transparent !important;
+  border:1px solid rgb(194, 81, 6) !important;  ;
+  color:rgb(1, 17, 1) i !important;
+
+}
+.btn-outline-info a{
+  color:rgb(1, 17, 1) i !important;
+
+}
+.btn-outline-info:hover{
+background-color:rgb(194, 81, 6) !important;
+}
+.icon{
+  font-size:14px;
+  color:rgb(194, 81, 6) !important;
+
+  font-family: 'Times New Roman', Times, serif;
+  padding-right:10px
+}

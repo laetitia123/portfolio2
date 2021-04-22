@@ -6,18 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <title>portfolio</title>
 </head>
 <body>
-  <div class="containere">
-    <div id="overlay">
-    <div class="background">
+  
     <header>
-  <h2 class=" title grid_4"style="color:white">Laetitia</h2>
-  <nav>
+  <nav class="navbar fixed-top navbar-light bg-light">
+    <h2 class=" title grid_4"style="">Laetitia</h2>
+
   <ul>
     <li><a href="#myproject">PROJECT</a></li>
     <li><a href="#contact">CONTACT</a></li>
@@ -28,7 +31,15 @@
   </ul>
 </nav>
 </header>
-  <div class="main"> 
+<div class="containere">
+  <div id="overlay">
+  <div class="background">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-3"></div>
+    <div class="col-sm-5">
+     <div class="main"> 
       <!-- <h1>This pen is
           <span
              class="txt-rotate"
@@ -41,28 +52,36 @@
     class="txt-rotate"
              data-period="2000"
              data-rotate='[
-             "a programming Lover",
-   "& passionate of computer technology"]'></span></strong>
+             "a Web Developer",
+   "& Coding Lover"]'></span></strong>
   </h1>
   <br><br>
-
-  </div>
-  <div class="frame"style="margin-top:50px;">
-      <div class="button">
-        <span><strong><a href="#contact" style="text-decoration: none;color:white">CONTACT ME </a></strong></span>
-        <svg>
-        <polyline class="o1" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
-        <polyline class="o2" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
-      </svg>
-      </div>
-      
+  <button class="btn btn-info contact"><a href="#contact" style="text-decoration: none;color:white">CONTACT ME </a></button>
+  <!-- <div class="frame"style="margin-top:50px;">
+    <div class="button">
+      <span><strong><a href="#contact" style="text-decoration: none;color:white">CONTACT ME </a></strong></span>
+      <svg>
+      <polyline class="o1" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+      <polyline class="o2" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+    </svg>
     </div>
+    
+  </div> -->
+
+     </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+  
 </div>
     </div>
   <div id="about">
     <div class="me">
-        <h1 stye="text-transform:capitalize">ABOUT ME</h1>
-        <p class="box-header" style="margin-left:560px;"></p>
+        <h1>ABOUT ME</h1>
+        <p class="box-header"style="margin-left:650px" ></p>
 
      <img src="images/laetitia.jpeg"id="mo"  alt="Laetitia"/></h1> <br>
 
@@ -102,8 +121,8 @@
   <div class="container">
   
   <section id="myproject">
-  <h1 style="text-align:center;margin-top: 150px;font-family: 'Times New Roman', Times, serif;text-transform:uppercase;font-size:28px;">MY PORTFOLIO</h1>
-  <p class="box-header" style="margin-left:400px;"></p>
+  <h1>MY PORTFOLIO</h1>
+  <p class="box-header" ></p>
  
       <div class="row">
     <br>
@@ -127,13 +146,13 @@
      
       </div>
       <div class="col-sm-6">
-          <h3 style="font-family:'Times New Roman', Times, serif;margin-top:50px;"><span style="font-size:14px;color:rgb(57, 167, 218);padding-right:10px"><i class="fa fa-desktop" ></i></span>Cafe Resto Website</h3>
+          <h3 style="font-family:'Times New Roman', Times, serif;margin-top:50px;"><span class="icon"><i class="fa fa-desktop" ></i></span>Cafe Resto Website</h3>
           <p style="margin-top:20px; width:400px;font-family: 'Times New Roman', Times, serif;">
             My first project I did in Wecode 
               it was about cafe resto website. 
               this project is about coffe shop website 
               <!-- <h5>Technology used</h5> -->
-              <table style="color:teal">
+              <table style="color:rgb(1, 17, 1);">
                 <tr>
                   <td>HTML-</td>
                   <td>css</td>
@@ -144,11 +163,11 @@
       </div>
       <hr>
       <div class="col-sm-6" style="margin-top:80px">
-        <h3 style="font-family:'Times New Roman', Times, serif;margin-top:50px;"><span style="font-size:14px;color:rgb(57, 167, 218);font-family: 'Times New Roman', Times, serif;padding-right:10px"><i class="fa fa-desktop" ></i></span>Pizzerie APP</h3>
+        <h3 style="font-family:'Times New Roman', Times, serif;margin-top:50px;"><span class="icon"><i class="fa fa-desktop" ></i></span>Pizzerie APP</h3>
           <p style="margin-top:20px;width:400px;"> Project I did in Wecode 
               it was about oredring PIZZA online 
               .</p>
-              <table style="color:teal">
+              <table style="color:rgb(1, 17, 1);">
                   <tr>
                     <td>HTML-</td>
                     <td>css-</td>
@@ -179,24 +198,25 @@
       
 
         <div class="wrapper">
-            <div class="card" style="background:url('https://res.cloudinary.com/dhzndcjtz/image/upload/v1563045682/ASANA_upsbrm.png')" >
-              <a href="https://laetitia123.github.io/coffe-shop-website/"><button class="btn btn-outline-info" style="margin-top:100px;margin-left:-30px;">visite site</button> </a>
+            <div class="card" style="background:url('images/award.JPG')" >
+              <a href="https://awardlaety.herokuapp.com/"><button class="btn btn-outline-info" style="margin-top:100px;margin-left:-30px;">visite site</button> </a>
                 <!-- <span class="enclosed">Cut</span>out
               </h1> -->
               </div>
               </div>
     </div>
     <div class="col-sm-6" style="margin-top:80px">
-        <h3 style="font-family:'Times New Roman', Times, serif;margin-top:50px;"><span style="font-size:2=0px;color:rgb(57, 167, 218) ; "><i class="fa fa-desktop" ></i></span>Asana Website</h3>
-          <p style="margin-top:50px;">This a project i have done after completing the course of coding in a bootcamp but was a group 
-              project of 5 people.</p>
+        <h3 style="font-family:'Times New Roman', Times, serif;margin-top:50px;"><span class="icon"><i class="fa fa-desktop" ></i></span>Award App</h3>
+          <p style="margin-top:50px;">This a project i have done after completing the course of coding in a bootcamp at Wecode.</p>
 
-              <table style="color:teal">
+              <table style="color:rgb(1, 17, 1);">
                   <tr>
                     <td>HTML-</td>
                     <td>css-</td>
                     <td>Javascript-</td>
                     <td>jQuery</td>
+                    <td>Python</td>
+                    <td>Django</td>
                   </tr>
               </table>
              
